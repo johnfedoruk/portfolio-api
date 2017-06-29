@@ -42,5 +42,9 @@
   "Post": {
     "dataSource": "db",
     "public": true
+  },
+  "Album": {
+    "dataSource": "db",
+    "public": true
   }
 }
