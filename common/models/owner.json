@@ -32,6 +32,11 @@
       "type": "hasOne",
       "model": "Album",
       "foreignKey": "cover_pictures"
+    },
+    "projects": {
+      "type": "hasMany",
+      "model": "Project",
+      "foreignKey": ""
     }
   },
   "acls": [],
