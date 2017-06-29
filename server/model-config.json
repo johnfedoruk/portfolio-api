@@ -14,69 +14,69 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "mysql"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": false
   },
   "Owner": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   },
   "Post": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   },
   "Album": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   },
   "Media": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   },
   "Accomplishment": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": false
   },
   "Work": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   },
   "Education": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   },
   "Project": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   },
   "ContactInfo": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": false
   },
   "EmailAddress": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   },
   "PhoneNumber": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   }
 }
