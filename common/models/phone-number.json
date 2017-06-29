@@ -1,0 +1,14 @@
+{
+  "name": "PhoneNumber",
+  "plural": "PhoneNumbers",
+  "base": "ContactInfo",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

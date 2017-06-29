@@ -74,5 +74,9 @@
   "EmailAddress": {
     "dataSource": "db",
     "public": true
+  },
+  "PhoneNumber": {
+    "dataSource": "db",
+    "public": true
   }
 }
