@@ -62,5 +62,9 @@
   "Education": {
     "dataSource": "db",
     "public": true
+  },
+  "Project": {
+    "dataSource": "db",
+    "public": true
   }
 }
