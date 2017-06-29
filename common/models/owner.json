@@ -52,6 +52,11 @@
       "type": "hasMany",
       "model": "EmailAddress",
       "foreignKey": ""
+    },
+    "phoneNumbers": {
+      "type": "hasMany",
+      "model": "PhoneNumber",
+      "foreignKey": ""
     }
   },
   "acls": [],
