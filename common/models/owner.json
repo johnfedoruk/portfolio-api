@@ -37,6 +37,11 @@
       "type": "hasMany",
       "model": "Project",
       "foreignKey": ""
+    },
+    "education": {
+      "type": "hasMany",
+      "model": "Education",
+      "foreignKey": ""
     }
   },
   "acls": [],
