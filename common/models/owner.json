@@ -17,6 +17,11 @@
       "type": "hasMany",
       "model": "Post",
       "foreignKey": ""
+    },
+    "albums": {
+      "type": "hasMany",
+      "model": "Album",
+      "foreignKey": ""
     }
   },
   "acls": [],
