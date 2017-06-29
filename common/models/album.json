@@ -29,6 +29,11 @@
       "type": "belongsTo",
       "model": "Owner",
       "foreignKey": "owner_id"
+    },
+    "post": {
+      "type": "belongsTo",
+      "model": "Post",
+      "foreignKey": ""
     }
   },
   "acls": [],
