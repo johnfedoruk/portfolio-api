@@ -47,6 +47,11 @@
       "type": "hasMany",
       "model": "Work",
       "foreignKey": ""
+    },
+    "emailAddresses": {
+      "type": "hasMany",
+      "model": "EmailAddress",
+      "foreignKey": ""
     }
   },
   "acls": [],
