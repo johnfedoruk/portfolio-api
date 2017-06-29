@@ -50,5 +50,9 @@
   "Media": {
     "dataSource": "db",
     "public": true
+  },
+  "Accomplishment": {
+    "dataSource": "db",
+    "public": false
   }
 }

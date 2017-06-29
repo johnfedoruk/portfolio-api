@@ -1,0 +1,41 @@
+{
+  "name": "Accomplishment",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "string",
+      "required": true
+    },
+    "started_at": {
+      "type": "date",
+      "required": true
+    },
+    "ended_at": {
+      "type": "date"
+    },
+    "created_at": {
+      "type": "date",
+      "required": true,
+	  "default": "$now"
+    },
+    "updated_at": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
