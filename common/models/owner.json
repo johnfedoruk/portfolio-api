@@ -27,6 +27,11 @@
       "type": "hasOne",
       "model": "Album",
       "foreignKey": "profile_pictures"
+    },
+    "coverPictures": {
+      "type": "hasOne",
+      "model": "Album",
+      "foreignKey": "cover_pictures"
     }
   },
   "acls": [],
