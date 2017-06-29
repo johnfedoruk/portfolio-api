@@ -11,7 +11,7 @@
       "required": true
     },
     "body": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "created_at": {
