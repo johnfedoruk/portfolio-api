@@ -70,5 +70,9 @@
   "ContactInfo": {
     "dataSource": "db",
     "public": false
+  },
+  "EmailAddress": {
+    "dataSource": "db",
+    "public": true
   }
 }
