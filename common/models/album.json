@@ -34,6 +34,11 @@
       "type": "belongsTo",
       "model": "Post",
       "foreignKey": ""
+    },
+    "media": {
+      "type": "hasMany",
+      "model": "Media",
+      "foreignKey": ""
     }
   },
   "acls": [],
