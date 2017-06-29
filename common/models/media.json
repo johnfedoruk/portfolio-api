@@ -36,7 +36,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "album": {
+      "type": "belongsTo",
+      "model": "Album",
+      "foreignKey": "album_id"
+    }
+  },
   "acls": [],
   "methods": {}
 }
