@@ -17,7 +17,7 @@
     "created_at": {
       "type": "date",
       "required": true,
-	  "default":"$now"
+      "default": "$now"
     },
     "updated_at": {
       "type": "date",
