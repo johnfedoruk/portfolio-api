@@ -30,6 +30,11 @@
       "type": "belongsTo",
       "model": "Owner",
       "foreignKey": "owner_id"
+    },
+    "album": {
+      "type": "hasOne",
+      "model": "Album",
+      "foreignKey": "album_id"
     }
   },
   "acls": [],
